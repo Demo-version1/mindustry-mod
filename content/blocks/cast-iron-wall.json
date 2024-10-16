@@ -1,0 +1,15 @@
+{
+    "name":"cast iron wall",
+    "description":"cast iron wall, good at defence",
+    "type":"Wall",
+    "health":150,
+    "size": 1,
+    "requirements": [
+        {"item":"copper","amount":1},
+        {"item":"lead","amount":5},
+        {"item":"cast-iron","amount":5}
+    ],
+    "category":"defense",
+    "research":"copper-wall"
+
+}
