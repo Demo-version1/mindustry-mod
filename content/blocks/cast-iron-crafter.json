@@ -1,0 +1,31 @@
+{
+    "type":"GenericCrafter",
+    "name":"cast iron crafter",
+    "description":"it makes cast iron from lead and coal",
+    "health":160,
+    "size":2,
+    "requirements": [
+        { "item": "copper", "amount": 1},
+        {"item":"lead", "amount":5}
+      ],
+      "research": "copper-wall",
+      "hasPower": true,
+      "hasItems": true,
+      "hasLiquids": false,
+      "craftTime": 4,
+      "consumes": {
+        "power": 20,
+        "items": {
+          "items": [
+            { "item": "coal", "amount": 1},
+            { "item":"lead","amount":5}
+          ]
+        }
+      },
+      "updateEffect":"smoke",
+      "category":"crafting",
+      "idleSoundVolume":0.7,
+      "itemCapacity":15,
+      "outputItem":{"item":"cast-iron","amount":1}
+    
+}
